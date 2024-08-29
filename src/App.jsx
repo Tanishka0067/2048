@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Swipe from "react-easy-swipe";
 import cloneDeep from "lodash.clonedeep";
-import { useEvent } from "./util"; // Import your custom hook
-import "./App.css"; // Make sure this imports the Tailwind CSS file or other relevant styles
+import { useEvent } from "./util";
+import "./App.css"; 
 
 function App() {
   const UP_ARROW = 38;
