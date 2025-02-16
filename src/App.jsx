@@ -309,7 +309,14 @@ function App() {
           )}
         </div>
       </Swipe>
-    </div>
+<div className="text-base p-3 shadow-sm">
+  <b className="text-gray-700 font-semibold">Note: </b>
+  <span className="text-gray-600">
+    Use the <span className="font-medium">arrow keys (↑ ↓ ← →)</span> to slide tiles in the grid. 
+    When two tiles with the same number collide, they merge into one with their sum. 
+    Keep merging tiles to reach <span className="font-semibold">2048</span>—if the board fills up with no possible moves, the game is over!
+  </span>
+</div>    </div>
   );
 }
 
